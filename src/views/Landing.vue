@@ -19,17 +19,16 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3  text-white">[title]
+                                <h1 class="display-3 text-white">FUELED BY SERVICE
                                     <span></span>
                                 </h1>
-                                <p class="lead  text-white">[description]</p>
+                                <p class="lead text-white">Streamline your next project with an experienced industry partner. By combining quality land and marine equipment rental solutions, DLS offers a full range of services from fabrication and construction to maintenance and restoration for the global oil and gas industry.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
                                                  href="/services"
                                                  class="mb-3 mb-sm-0"
-                                                 type="warning"
-                                                 icon="fa fa-info">
-                                        [button]
+                                                 type="bc-tertiary">
+                                        View Our Services
                                     </base-button>
                                 </div>
                             </div>
@@ -45,46 +44,46 @@
                     <div class="col-lg-12">
                         <div class="row row-grid">
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Construction</h6>
-                                    <p class="description mt-3">[description]</p>
-                                    <div>
-                                        <badge type="primary" rounded>experienced</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
+                                <div class="card bg-bc-tertiary shadow border-0">
+                                    <img v-lazy="'img/theme/THD-Pro-House-Framing-Guide-2-WF-2997323.jpg'" class="card-img-top" height="200px">
+                                    <blockquote class="card-blockquote">
+                                        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                                            class="svg-bg">
+                                            <polygon points="0,52 583,95 0,95" class="fill-bc-tertiary"></polygon>
+                                            <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-tertiary"></polygon>
+                                        </svg>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Construction</h4>
+                                        <p class="lead text-italic text-white">[description]</p>
+                                    </blockquote>
+                                </div>
                             </div>
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="success" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-success text-uppercase">Capentry</h6>
-                                    <p class="description mt-3">[description]</p>
-                                    <div>
-                                        <badge type="success" rounded>reliable</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
+                                <div class="card bg-bc-secondary shadow border-0">
+                                    <img v-lazy="'img/theme/MIG-Welding-Basics.jpeg'" class="card-img-top" height="200px">
+                                    <blockquote class="card-blockquote">
+                                        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                                            class="svg-bg">
+                                            <polygon points="0,52 583,95 0,95" class="fill-bc-secondary"></polygon>
+                                            <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-secondary"></polygon>
+                                        </svg>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Welding</h4>
+                                        <p class="lead text-italic text-white">[description]</p>
+                                    </blockquote>
+                                </div>
                             </div>
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="warning" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-warning text-uppercase">Coating</h6>
-                                    <p class="description mt-3">[description]</p>
-                                    <div>
-                                        <badge type="warning" rounded>stunning</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
+                                <div class="card bg-bc-primary shadow border-0">
+                                    <img v-lazy="'img/theme/5.11_C010858-R1-02-3.jpg'" class="card-img-top" height="200px">
+                                    <blockquote class="card-blockquote">
+                                        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                                            class="svg-bg">
+                                            <polygon points="0,52 583,95 0,95" class="fill-bc-primary"></polygon>
+                                            <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-primary"></polygon>
+                                        </svg>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Coating</h4>
+                                        <p class="lead text-italic text-white">[description]</p>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,38 +91,10 @@
             </div>
         </section>
         <section class="section section-lg">
-            <div class="container">
+            <div class="fluid-container">
                 <div class="row row-grid align-items-center">
-                    <div class="col-md-6 order-md-2">
-                        <img src="img/theme/promo-1.png" class="img-fluid floating">
-                    </div>
-                    <div class="col-md-6 order-md-1">
-                        <div class="pr-md-5">
-                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
-                                  rounded></icon>
-                            <h3>[title]</h3>
-                            <p>[description]</p>
-                            <ul class="list-unstyled mt-5">
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
-                                        <h6 class="mb-0">[bullet point 1]</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
-                                        <h6 class="mb-0">[bullet point 2]</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h6 class="mb-0">[bullet point 3]</h6>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-md-12">
+                        
                     </div>
                 </div>
             </div>
