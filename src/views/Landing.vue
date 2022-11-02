@@ -19,10 +19,10 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3 text-white">FUELED BY SERVICE
+                                <h1 class="display-3 text-white text-uppercase">Our Service to You
                                     <span></span>
                                 </h1>
-                                <p class="lead text-white">Streamline your next project with an experienced industry partner. By combining quality land and marine equipment rental solutions, DLS offers a full range of services from fabrication and construction to maintenance and restoration for the global oil and gas industry.</p>
+                                <p class="lead text-white">Surface preparation and coatings on multiple substrates such as Concrete, steel, and nonferrous metals. As well as multiple types of complex structures. Providing protection to your most valuable assets.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
                                                  href="/services"
@@ -43,45 +43,114 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="row row-grid">
-                            <div class="col-lg-4">
+                            <div class="col-lg-6 d-flex align-items-stretch">
                                 <div class="card bg-bc-tertiary shadow border-0">
-                                    <img v-lazy="'img/theme/THD-Pro-House-Framing-Guide-2-WF-2997323.jpg'" class="card-img-top" height="200px">
+                                    <img v-lazy="'img/theme/THD-Pro-House-Framing-Guide-2-WF-2997323.jpg'" class="card-img-top" height="300px">
                                     <blockquote class="card-blockquote">
                                         <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                             class="svg-bg">
                                             <polygon points="0,52 583,95 0,95" class="fill-bc-tertiary"></polygon>
                                             <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-tertiary"></polygon>
                                         </svg>
-                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Construction</h4>
-                                        <p class="lead text-italic text-white">[description]</p>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">USGC</h4>
+                                        <p class="lead text-italic text-white">
+                                            <ul>
+                                                <li>Airforce Bases</li>
+                                                <li>Naval Bases</li>
+                                                <li>Army Bases</li>
+                                            </ul>
+                                            <base-button tag="a"
+                                                 href="/services"
+                                                 class="mb-3 mb-sm-0"
+                                                 type="bc-light">
+                                                Learn More
+                                            </base-button>
+                                        </p>
                                     </blockquote>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-6 d-flex align-items-stretch">
                                 <div class="card bg-bc-secondary shadow border-0">
-                                    <img v-lazy="'img/theme/MIG-Welding-Basics.jpeg'" class="card-img-top" height="200px">
+                                    <img v-lazy="'img/theme/MIG-Welding-Basics.jpeg'" class="card-img-top" height="300px">
                                     <blockquote class="card-blockquote">
                                         <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                             class="svg-bg">
                                             <polygon points="0,52 583,95 0,95" class="fill-bc-secondary"></polygon>
                                             <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-secondary"></polygon>
                                         </svg>
-                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Welding</h4>
-                                        <p class="lead text-italic text-white">[description]</p>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Marine</h4>
+                                        <p class="lead text-italic text-white">
+                                            <ul>
+                                                <li>USCG Cutters, Tugs & Tenders</li>
+                                                <li>Barges</li>
+                                                <li>OSV’s</li>
+                                                <li>Dredges</li>
+                                            </ul>
+                                            <base-button tag="a"
+                                                 href="/services"
+                                                 class="mb-3 mb-sm-0"
+                                                 type="bc-primary">
+                                                Learn More
+                                            </base-button>
+                                        </p>
                                     </blockquote>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                        </div>
+                        <div class="row row-grid">
+                            <div class="col-lg-6 d-flex align-items-stretch">
                                 <div class="card bg-bc-primary shadow border-0">
-                                    <img v-lazy="'img/theme/5.11_C010858-R1-02-3.jpg'" class="card-img-top" height="200px">
+                                    <img v-lazy="'img/theme/5.11_C010858-R1-02-3.jpg'" class="card-img-top" height="300px">
                                     <blockquote class="card-blockquote">
                                         <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                             class="svg-bg">
                                             <polygon points="0,52 583,95 0,95" class="fill-bc-primary"></polygon>
                                             <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-primary"></polygon>
                                         </svg>
-                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Coating</h4>
-                                        <p class="lead text-italic text-white">[description]</p>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Municipal</h4>
+                                        <p class="lead text-italic text-white">
+                                            <ul>
+                                                <li>Wastewater Facilities</li>
+                                                <li>Water Treatment Plants</li>
+                                                <li>Flood Control Systems</li>
+                                                <li>Containments</li>
+                                            </ul>
+                                            <base-button tag="a"
+                                                 href="/services"
+                                                 class="mb-3 mb-sm-0"
+                                                 type="bc-tertiary">
+                                                Learn More
+                                            </base-button>
+                                        </p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-stretch">
+                                <div class="card bg-bc-light shadow border-0">
+                                    <img v-lazy="'img/theme/5.11_C010858-R1-02-3.jpg'" class="card-img-top" height="300px">
+                                    <blockquote class="card-blockquote">
+                                        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                                            class="svg-bg">
+                                            <polygon points="0,52 583,95 0,95" class="fill-bc-light"></polygon>
+                                            <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-bc-light"></polygon>
+                                        </svg>
+                                        <h4 class="display-4 font-weight-bold text-white text-uppercase">Oilfield</h4>
+                                        <p class="lead text-italic text-white">
+                                            <ul>
+                                                <li>Frac Tanks</li>
+                                                <li>Power Packs</li>
+                                                <li>Wireline Equipment</li>
+                                                <li>Acid Tanks</li>
+                                                <li>Blenders</li>
+                                                <li>Onshore/Offshore Platforms</li>
+                                            </ul>
+                                            <base-button tag="a"
+                                                 href="/services"
+                                                 class="mb-3 mb-sm-0"
+                                                 type="bc-secondary">
+                                                Learn More
+                                            </base-button>
+                                        </p>
                                     </blockquote>
                                 </div>
                             </div>
@@ -111,8 +180,29 @@
                                     <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
                                 </svg>
-                                <h4 class="display-3 font-weight-bold text-white">[title]</h4>
-                                <p class="lead text-italic text-white">[description]</p>
+                                <h4 class="display-3 font-weight-bold text-white">Bella Provided Services to USA Military Base Locations around the USA</h4>
+                                <p class="lead text-italic text-white">
+                                    <ul>
+                                        <li>QS & QP1 Coatings Repairs </li>
+                                        <li>Concrete repairs from new pours, curbs, cracks, joint sealant, etc. </li>
+                                        <li>Welding Operations Stainless, Carbon, Copper, etc. Tig, Mig, stick, etc. </li>
+                                        <li>Fuel Mechanics </li>
+                                        <li>Cla Val certified reps and installation team</li>
+                                        <li>Petroleum Maintenace such as filters, gauges, PRVs, double bleeds, and etc. </li>
+                                        <li>Master Electricians with over 30 plus years expectance in the Fuels Field. Everything from Lights to new MCC's. </li>
+                                        <li>General Contracting such as new builds or repairs</li>
+                                        <li>Meter Calibrations and replacements </li>
+                                        <li>UST Inspections and repairs </li>
+                                        <li>API 653 Inspections and repairs</li>
+                                        <li>Pump and Motor repairs and alignment team  </li>
+                                        <li>Tank Cleaning "UST and AST tanks"</li>
+                                        <li>Chime Seal repairs </li>
+                                        <li>PIV Replacements </li>
+                                        <li>Heavy Equipment Operators </li>
+                                        <li>Confined Space Team/Rescue</li>
+                                        <li>Wiper Seal Replacements </li>
+                                    </ul>
+                                </p>
                             </blockquote>
                         </div>
                     </div>
@@ -120,8 +210,26 @@
                         <div class="pl-md-5">
                             <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
 
-                            <h3>[title]</h3>
-                            <p class="lead">[description]</p>
+                            <h3>Certifications and Qualifications Held by Most Team Members</h3>
+                            <p class="lead">
+                                <ul>
+                                    <li>CAC's</li>
+                                    <li>Osha-30</li>
+                                    <li>Basic First Aid</li>
+                                    <li>Confined Space Entrant and Rescue </li>
+                                    <li>Fall Protection </li>
+                                    <li>Rigging </li>
+                                    <li>Forklift Operations</li>
+                                    <li>Trench Safety</li>
+                                    <li>Excavator Training </li>
+                                    <li>Fire Watch </li>
+                                    <li>Manlift Training </li>
+                                    <li>LOTO</li>
+                                    <li>Hazwop 8 & 40 Hour </li>
+                                    <li>Pressurized Vessels </li>
+                                    <li>6G,6GR,3G-4G,SMAW,GTAW FCAW for Stainless, Copper, Aluminum, and Steel</li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
